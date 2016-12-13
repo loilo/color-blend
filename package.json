@@ -1,0 +1,22 @@
+{
+  "name": "color-blend",
+  "version": "1.0.0",
+  "description": "Blends RGBA colors with different blend modes",
+  "main": "src/blend.js",
+  "keywords": [
+    "color",
+    "colour",
+    "blend"
+  ],
+  "author": "Florian Reuschel <florian@loilo.de>",
+  "license": "MIT",
+  "repository": "Loilo/color-blend",
+  "scripts": {
+    "pretest": "standard",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  }
+}
