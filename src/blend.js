@@ -59,7 +59,7 @@ function blend (backdrop, source, mode, blendCallback) {
     a: a
   })
 
-  // Convert to color channels to unit values if needed
+  // Convert color channels to unit values if needed
   if (options.unitOutput) {
     result = helpers.convertToUnit(result)
 
