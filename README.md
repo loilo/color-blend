@@ -27,7 +27,7 @@ blender.normal(backdrop, source)
 
 ### Explanation
 This module exports an object—let's agree on calling it `blender` in this guide—which provides all blend modes listed in the W3C document as methods. Those are:
-`normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `colorDodge`, `colorBurn`, `hardLight`, `softLight`, `difference`, `exclusion`, `hue`, `saturation`, `color` and `luminosity`
+`normal`, `multiply`, `screen`, `overlay`, `darken`, `lighten`, `colorDodge`, `colorBurn`, `hardLight`, `softLight`, `difference`, `exclusion`, `hue`, `saturation`, `color` and `luminosity`.
 
 They all work the same: Each of these methods takes a `backdrop` color and a `source` color as arguments. Those parameters are expected to be RGBA colors represented as plain objects containing the keys `r`, `g`, `b` (each ranging from 0 to 255) and `a` (ranging from 0 to 1).
 
