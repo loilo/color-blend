@@ -1,5 +1,7 @@
 # color-blend
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Loilo/color-blend.svg)](https://greenkeeper.io/)
+
 > Blends RGBA colors with different blend modes
 
 JavaScript implementation of the blend modes introduced in the [W3C Compositing and Blending spec](https://www.w3.org/TR/compositing-1/).
