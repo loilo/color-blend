@@ -58,7 +58,7 @@ var channelMethods = {
       : backdrop + (2 * source - 1) * (((backdrop <= 0.25)
         ? ((16 * backdrop - 12) * backdrop + 4) * backdrop
         : Math.sqrt(backdrop)
-        ) - backdrop)
+      ) - backdrop)
   },
 
   difference: function (backdrop, source) {
