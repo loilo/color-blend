@@ -1,6 +1,7 @@
 # color-blend
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/Loilo/color-blend.svg)](https://greenkeeper.io/)
+![Travis](https://img.shields.io/travis/Loilo/color-blend.svg)
 
 > Blends RGBA colors with different blend modes
 
