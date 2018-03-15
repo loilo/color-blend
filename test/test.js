@@ -13,7 +13,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.normal({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 145, g: 174, b: 39, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -22,7 +22,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.multiply({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 144, g: 164, b: 16, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -31,7 +31,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.screen({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 208, g: 199, b: 39, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -40,7 +40,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.overlay({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 207, g: 193, b: 16, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -49,7 +49,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.darken({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 145, g: 174, b: 16, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -58,7 +58,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.lighten({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 208, g: 189, b: 39, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -67,7 +67,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.colorDodge({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 209, g: 207, b: 16, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -76,7 +76,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.colorBurn({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 202, g: 177, b: 16, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -85,7 +85,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.hardLight({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 160, g: 193, b: 16, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -94,7 +94,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.softLight({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 207, g: 191, b: 16, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -103,7 +103,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.difference({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 192, g: 142, b: 39, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -112,7 +112,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.exclusion({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 193, g: 163, b: 39, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -121,7 +121,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.hue({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 162, g: 207, b: 49, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -130,7 +130,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.saturation({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 209, g: 182, b: 54, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -139,7 +139,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.color({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 171, g: 199, b: 65, a: 0.76 }
-        )
+      )
     })
   })
 
@@ -148,7 +148,7 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
       assert.deepEqual(
         blender.luminosity({ r: 250, g: 200, b: 0, a: 0.6 }, { r: 50, g: 150, b: 75, a: 0.4 }),
         { r: 175, g: 163, b: 16, a: 0.76 }
-        )
+      )
     })
   })
 })
@@ -172,7 +172,7 @@ describe('Options: use blend mode `normal` and different options', function () {
       assert.deepEqual(
         approxChannels(blender.normal({ r: 150, g: 0, b: 0, a: 0.5 }, { r: 0, g: 250, b: 0, a: 0.5 })),
         approxChannels({ r: 50, g: 166.667, b: 0, a: 0.75 })
-        )
+      )
     })
   })
 
@@ -182,7 +182,7 @@ describe('Options: use blend mode `normal` and different options', function () {
       assert.deepEqual(
         blender.normal({ r: 1, g: 0, b: 0, a: 0.5 }, { r: 0, g: 1, b: 0, a: 0.5 }),
         { r: 85, g: 170, b: 0, a: 0.75 }
-        )
+      )
     })
   })
 
@@ -192,7 +192,7 @@ describe('Options: use blend mode `normal` and different options', function () {
       assert.deepEqual(
         approxChannels(blender.normal({ r: 1, g: 0, b: 0, a: 0.5 }, { r: 0, g: 1, b: 0, a: 0.5 })),
         approxChannels({ r: 1 / 3, g: 2 / 3, b: 0, a: 0.75 })
-        )
+      )
     })
   })
 })
