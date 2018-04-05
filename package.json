@@ -1,6 +1,6 @@
 {
   "name": "color-blend",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Blends RGBA colors with different blend modes",
   "main": "src/blend.js",
   "keywords": [
@@ -16,7 +16,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "^4.0.1",
+    "mocha": "^5.0.0",
     "standard": "^10.0.3"
   }
 }
