@@ -1,6 +1,10 @@
 # color-blend
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/Loilo/color-blend.svg)](https://greenkeeper.io/)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Travis](https://img.shields.io/travis/Loilo/color-blend.svg?label=unix&logo=travis)](https://travis-ci.org/Loilo/color-blend)
+[![AppVeyor](https://img.shields.io/appveyor/ci/Loilo/color-blend.svg?label=windows&logo=appveyor)](https://ci.appveyor.com/project/Loilo/color-blend)
+[![npm](https://img.shields.io/npm/v/color-blend.svg)](https://npmjs.com/package/color-blend)
 
 > Blends RGBA colors with different blend modes
 
