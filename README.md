@@ -31,12 +31,13 @@ It's simple to wrap your head around, you should get it after just reading this:
 ```js
 var blender = require('color-blend')
 
-// Mix red and lime green
-var backdrop = { r: 255, g: 0,   b: 0, a: 0.6 }
-var source   = { r: 0,   g: 255, b: 0, a: 0.4 }
+// Mix some green and pink tones
+// By the way, those are the colors from the logo above
+var backdrop = { r: 255, g:   0, b: 87, a: 0.42 }
+var source   = { r:  70, g: 217, b: 98, a: 0.6  }
 
 blender.normal(backdrop, source)
-// Returns { r: 121, g: 134, b: 0, a: 0.76 }
+// Returns { r: 110, g: 170, b: 96, a: 0.768 }
 ```
 
 ### Explanation
