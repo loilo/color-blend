@@ -1,6 +1,6 @@
 {
   "name": "color-blend",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Blends RGBA colors with different blend modes",
   "main": "src/blend.js",
   "keywords": [
