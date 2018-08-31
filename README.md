@@ -2,7 +2,7 @@
   <br>
   <br>
 
-  ![color-blend logo showing two half-transparent, overlapping circles](color-blend.svg)
+  ![color-blend logo showing two half-transparent, overlapping circles](https://cdn.rawgit.com/Loilo/color-blend/61bf569a/color-blend.svg)
 
   <br>
 </div>
