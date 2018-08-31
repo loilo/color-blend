@@ -1,3 +1,11 @@
+<div align="center">
+  <br>
+  <br>
+  <img width="220" height="133" src="color-blend.svg" alt="color-blend logo showing two half-transparent, overlapping circles">
+  <br>
+  <br>
+</div>
+
 # color-blend
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/Loilo/color-blend.svg)](https://greenkeeper.io/)
