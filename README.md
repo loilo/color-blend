@@ -1,8 +1,9 @@
 <div align="center">
   <br>
   <br>
-  <img width="220" height="133" src="color-blend.svg" alt="color-blend logo showing two half-transparent, overlapping circles">
-  <br>
+
+  ![color-blend logo showing two half-transparent, overlapping circles](color-blend.svg)
+
   <br>
 </div>
 
