@@ -1,7 +1,10 @@
 <div align="center">
+  <br>
+  <br>
 
   ![color-blend logo showing two half-transparent, overlapping circles](color-blend.svg)
 
+  <br>
 </div>
 
 # color-blend
