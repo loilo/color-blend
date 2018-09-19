@@ -2,23 +2,21 @@
   "name": "color-blend",
   "version": "2.0.0",
   "description": "Blends RGBA colors with different blend modes",
-  "main": "dist/index.js",
-  "umd:main": "dist/index.umd.js",
-  "module": "dist/index.mjs",
-  "source": "src/index.js",
   "keywords": [
+    "blend",
     "color",
-    "colour",
-    "blend"
+    "colour"
   ],
+  "repository": "Loilo/color-blend",
+  "license": "MIT",
+  "author": "Florian Reuschel <florian@loilo.de>",
   "files": [
     "dist",
     "unit",
     "explanation.png"
   ],
-  "author": "Florian Reuschel <florian@loilo.de>",
-  "license": "MIT",
-  "repository": "Loilo/color-blend",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
     "build": "microbundle --entry src/index.ts --output dist/index.js && microbundle --entry src/unit.ts --output unit/index.js",
     "pretest": "tslint 'src/*.ts' && npm run build",
@@ -30,5 +28,8 @@
     "tslint": "^5.11.0",
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.0.3"
-  }
+  },
+  "sideEffects": false,
+  "source": "src/index.js",
+  "umd:main": "dist/index.umd.js"
 }
