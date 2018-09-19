@@ -112,3 +112,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Custom
+package-lock.json
+/.rpt2_cache
+/dist
+/unit
