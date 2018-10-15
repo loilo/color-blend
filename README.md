@@ -42,10 +42,10 @@ import { normal } from 'color-blend'
 
 
 // Mix some green and pink
-const background = { r: 255, g:   0, b: 87, a: 0.42 }
-const foreground = { r:  70, g: 217, b: 98, a: 0.6  }
+const pinkBackground  = { r: 255, g:   0, b: 87, a: 0.42 }
+const greenForeground = { r:  70, g: 217, b: 98, a: 0.6  }
 
-normal(background, foreground)
+normal(pinkBackground, greenForeground)
 // returns { r: 110, g: 170, b: 96, a: 0.768 }
 ```
 
@@ -82,17 +82,17 @@ Those are expected to be RGBA colors, similar to how they appear in CSS — repr
 The result of the blending operation will be returned as such an RGBA object as well.
 
 ### Unit Colors
-If you need higher precision (resulting RGB channels will be rounded to integers!) or just have a different flavor, this package offers an entry point `/unit`, where all accepted and returned color channels are values between 0 and 1:
+If you need higher precision (resulting RGB channels will be rounded to integers!) or just have a different flavor, this package offers the `/unit` entry point, where all accepted and returned color channels are values between 0 and 1:
 
 ```javascript
 import { normal } from 'color-blend/unit'
 
 // Still mix some green and pink
-const background = { r:  1,    g: 0,    b: 0.34, a: 0.42 }
-const foreground = { r:  0.27, g: 0.85, b: 0.38, a: 0.6  }
+const pinkBackground  = { r:  1,    g: 0,    b: 0.34, a: 0.42 }
+const greenForeground = { r:  0.27, g: 0.85, b: 0.38, a: 0.6  }
 
-normal(background, foreground)
-// returns { r: 0.43, g: 0.665, b: 0.372, a: 0.768 } (rounded to 3 decimals)
+normal(pinkBackground, greenForeground)
+// returns { r: 0.43, g: 0.665, b: 0.372, a: 0.768 } (rounded to 3 decimals for brevity)
 ```
 
 ## Thanks
