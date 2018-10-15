@@ -18,7 +18,7 @@
 
 > Blends RGBA colors with different blend modes
 
-This is a JavaScript implementation of the blend modes introduced in the [W3C Compositing and Blending spec](https://www.w3.org/TR/compositing-1/).
+This is a zero-dependency JavaScript implementation of the blend modes introduced in the [W3C Compositing and Blending spec](https://www.w3.org/TR/compositing-1/).
 
 Altogether it's a whopping 1.1 KB small (minified & gzipped), going down to as far as 0.4 KB if you use just one blending method and a [tree-shaking](https://en.wikipedia.org/wiki/Tree_shaking) bundler.
 
