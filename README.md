@@ -14,7 +14,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/Loilo/color-blend.svg)](https://greenkeeper.io/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![npm](https://img.shields.io/npm/v/color-blend.svg)](https://npmjs.com/package/color-blend)
-![ES modules](https://img.shields.io/badge/style-tree--shakeable-green.svg?style=flat&label=esm)
+![ES modules](https://img.shields.io/badge/esm-tree--shakeable-green.svg?style=flat)
 
 > Blends RGBA colors with different blend modes
 
