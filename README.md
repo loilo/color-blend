@@ -49,7 +49,7 @@ normal(pinkBackground, greenForeground)
 // returns { r: 110, g: 170, b: 96, a: 0.768 }
 ```
 
-Be the way, those are the colors from the logo above. See?
+By the way, those are the colors from the logo above. See?
 
 ![Visual representation of the example code](explanation.png)
 
