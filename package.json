@@ -1,6 +1,6 @@
 {
   "name": "color-blend",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Blends RGBA colors with different blend modes",
   "keywords": [
     "blend",
