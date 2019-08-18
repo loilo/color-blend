@@ -1,13 +1,19 @@
 import { convertFromUnit, convertToUnit } from './helpers'
-import { RGBA, NoAlphaBlender } from './types'
+import { NoAlphaBlender, RGBA } from './types'
 
 /**
  * Blend two colors in a non-separable way
  *
- * @param {object} backdrop    The RGBA backdrop color
- * @param {object} source      The RGBA source color
- * @param {function} callback  The blend mode callback to apply
+ * @param backdrop The background color as an { r,g,b,a } object
+ * @param source   The foreground color as an { r,g,b,a } object
+ * @param callback The blend mode callback to apply
  */
-export default function nonSeparableBlend (backdrop: RGBA, source: RGBA, callback: NoAlphaBlender) {
-  return convertFromUnit(callback(convertToUnit(backdrop), convertToUnit(source)))
+export default function nonSeparableBlend(
+  backdrop: RGBA,
+  source: RGBA,
+  callback: NoAlphaBlender
+) {
+  return convertFromUnit(
+    callback(convertToUnit(backdrop), convertToUnit(source))
+  )
 }
