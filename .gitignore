@@ -115,6 +115,6 @@ Temporary Items
 
 # Custom
 package-lock.json
-/.rpt2_cache
+/.rts2_cache_*
 /dist
 /unit
