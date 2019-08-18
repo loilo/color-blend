@@ -52,7 +52,7 @@ function sat (rgb: RGB) {
 }
 
 function setSat (rgb: RGB, s: number): RGB {
-  const sortedChannels = Object.keys(rgb).sort((a, b) => rgb[a as keyof RGB] - rgb[b as keyof RGB]) as [keyof RGB, keyof RGB, keyof RGB]
+  const sortedChannels = ['r', 'g', 'b'].sort((a, b) => rgb[a as keyof RGB] - rgb[b as keyof RGB]) as [keyof RGB, keyof RGB, keyof RGB]
   const cMin = sortedChannels[0]
   const cMid = sortedChannels[1]
   const cMax = sortedChannels[2]
