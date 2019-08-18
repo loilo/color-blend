@@ -129,13 +129,21 @@ describe('Basics: blend { r: 250, g: 200, b: 0, a: 0.6 } with { r: 50, g: 150, b
 
   test('hue should return { r: 162, g: 207, b: 49, a: 0.76 }', function() {
     assert.deepStrictEqual(
-
+      blender.hue(
+        { r: 250, g: 200, b: 0, a: 0.6 },
+        { r: 50, g: 150, b: 75, a: 0.4 }
+      ),
+      { r: 158, g: 207, b: 58, a: 0.76 }
     )
   })
 
   test('saturation should return { r: 209, g: 182, b: 54, a: 0.76 }', function() {
     assert.deepStrictEqual(
-
+      blender.saturation(
+        { r: 250, g: 200, b: 0, a: 0.6 },
+        { r: 50, g: 150, b: 75, a: 0.4 }
+      ),
+      { r: 197, g: 188, b: 52, a: 0.76 }
     )
   })
 
