@@ -9,11 +9,10 @@
 
 # color-blend
 
-[![Travis](https://img.shields.io/travis/Loilo/color-blend.svg?label=unix&logo=travis)](https://travis-ci.org/Loilo/color-blend)
-[![AppVeyor](https://img.shields.io/appveyor/ci/Loilo/color-blend.svg?label=windows&logo=appveyor)](https://ci.appveyor.com/project/Loilo/color-blend)
+[![Test status on Travis](https://badgen.net/travis/loilo/color-blend?label=Linux&icon=travis)](https://travis-ci.org/loilo/color-blend)
+[![Test status on AppVeyor](https://badgen.net/appveyor/ci/loilo/color-blend?label=Windows&icon=appveyor)](https://ci.appveyor.com/project/loilo/color-blend)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Loilo/color-blend.svg)](https://greenkeeper.io/)
-[![npm](https://img.shields.io/npm/v/color-blend.svg)](https://npmjs.com/package/color-blend)
-![ES modules](https://img.shields.io/badge/esm-tree--shakeable-green.svg?style=flat)
+[![Version on npm](https://badgen.net/npm/v/color-blend)](https://packagist.org/packages/loilo/node-path)
 
 > Blends RGBA colors with different blend modes
 
