@@ -12,7 +12,7 @@
 [![Test status on Travis](https://badgen.net/travis/loilo/color-blend?label=Linux&icon=travis)](https://travis-ci.org/loilo/color-blend)
 [![Test status on AppVeyor](https://badgen.net/appveyor/ci/loilo/color-blend?label=Windows&icon=appveyor)](https://ci.appveyor.com/project/loilo/color-blend)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Loilo/color-blend.svg)](https://greenkeeper.io/)
-[![Version on npm](https://badgen.net/npm/v/color-blend)](https://packagist.org/packages/loilo/node-path)
+[![Version on npm](https://badgen.net/npm/v/color-blend)](https://www.npmjs.com/package/color-blend)
 
 > Blends RGBA colors with different blend modes
 
