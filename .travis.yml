@@ -4,5 +4,7 @@ node_js:
   - "8"
   - "9"
   - "10"
+  - "12"
+  - "13"
 notifications:
   email: false
