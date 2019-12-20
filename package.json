@@ -31,6 +31,7 @@
   },
   "sideEffects": false,
   "source": "src/index.js",
+  "types": "dist/index.d.ts",
   "umd:main": "dist/index.umd.js",
   "unpkg": "dist/index.umd.js"
 }
