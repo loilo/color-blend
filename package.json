@@ -28,7 +28,7 @@
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.0.3",
-    "iltorb": "2.4.3"
+    "iltorb": "2.4.5"
   },
   "sideEffects": false,
   "source": "src/index.js",
