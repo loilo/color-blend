@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "jest": "^24.8.0",
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.12.0",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.0.3",
