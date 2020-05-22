@@ -16,23 +16,26 @@
     "explanation.png"
   ],
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "umd:main": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
   "scripts": {
-    "build": "microbundle --entry src/index.ts --output dist/index.js && microbundle --entry src/unit.ts --output unit/index.js",
+    "build": "microbundle --entry src/index.ts --output dist/index.js && microbundle --entry src/unit.ts --output unit/index.js --format modern,cjs,umd",
     "pretest": "tslint 'src/*.ts' && npm run build",
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^24.8.0",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
     "microbundle": "^0.12.0",
-    "tslint": "^5.11.0",
+    "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.0.3",
-    "iltorb": "2.4.3"
+    "typescript": "^3.9.3"
   },
-  "sideEffects": false,
-  "source": "src/index.js",
-  "types": "dist/index.d.ts",
-  "umd:main": "dist/index.umd.js",
-  "unpkg": "dist/index.umd.js"
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "sideEffects": false
 }
