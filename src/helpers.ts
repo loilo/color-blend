@@ -10,7 +10,7 @@ import { ChannelBlender, NoAlphaBlender, RGB, RGBA } from './types'
  * @return The restricted value
  */
 function restrictNumber(value: number, from: number, to: number) {
-  return Math.min(Math.max(value, from), to)
+  return Math.min(Math.max(value || 0, from), to)
 }
 
 /**

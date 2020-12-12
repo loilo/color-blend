@@ -158,6 +158,15 @@ function approximateChannels(color) {
 describe('Test basic unit functionality', () => {
   const blender = require('../unit')
 
+  test('blend { r: 0, g: 0, b: 0, a: 0 } and { r: 0, g: 0, b: 0, a: 0 } should return { r: 0, g: 0, b: 0, a: 0 }', () => {
+    expect(
+      blender.normal(
+        { r: 0, g: 0, b: 0, a: 0 },
+        { r: 0, g: 0, b: 0, a: 0 }
+      )
+    ).toStrictEqual({ r: 0, g: 0, b: 0, a: 0 })
+  })
+
   test('blend { r: 1, g: 0, b: 0, a: 0.5 } and { r: 0, g: 1, b: 0, a: 0.5 } should return { r: 1/3, g: 2/3, b: 0, a: 0.75 }', () => {
     expect(
       approximateChannels(
