@@ -9,7 +9,7 @@
 
 # color-blend
 
-[![Test status on Travis](https://badgen.net/travis/loilo/color-blend?label=build)](https://travis-ci.org/loilo/color-blend)
+[![Tests](https://badgen.net/github/checks/loilo/color-blend/master)](https://github.com/loilo/color-blend/actions)
 [![Version on npm](https://badgen.net/npm/v/color-blend)](https://www.npmjs.com/package/color-blend)
 
 > Blends RGBA colors with different blend modes
