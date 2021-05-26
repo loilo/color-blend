@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.0",
-    "jest": "^26.0.1",
+    "jest": "^27.0.1",
     "microbundle": "^0.13.0",
     "tslint": "^6.1.2",
     "tslint-config-prettier": "^1.18.0",
