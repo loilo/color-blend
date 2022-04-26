@@ -67,7 +67,7 @@ export function convertToUnit(color: any): RGB | RGBA {
  */
 function roundChannels(color: RGBA, precision?: number): RGBA
 function roundChannels(color: RGB, precision?: number): RGB
-function roundChannels(color: any, precision: number = 0): RGB | RGBA {
+function roundChannels(color: any, precision = 0): RGB | RGBA {
   const multiplier = Math.pow(10, precision)
 
   return {

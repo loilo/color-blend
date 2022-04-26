@@ -23,16 +23,18 @@
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "build": "microbundle --entry src/index.ts --output dist/index.js && microbundle --entry src/unit.ts --output unit/index.js --format modern,cjs,umd",
-    "pretest": "tslint 'src/*.ts' && npm run build",
+    "pretest": "eslint \"src/*.ts\" && npm run build",
     "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^27.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
     "jest": "^28.0.0",
     "microbundle": "^0.14.0",
-    "tslint": "^6.1.2",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^4.0.2"
+    "typescript": "^4.6.3"
   },
   "engines": {
     "node": ">=10.0.0"
