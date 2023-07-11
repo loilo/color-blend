@@ -114,7 +114,6 @@ Temporary Items
 .apdisk
 
 # Custom
-package-lock.json
 /.rts2_cache_*
 /dist
 /unit
